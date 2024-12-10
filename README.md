@@ -105,6 +105,8 @@ print("Mapa guardado como 'mapa_drenajes_curva.html'")
 
 ## Resultados
  Esta representación facilita el análisis geométrico y topográfico. La curva se visualiza en un mapa interactivo generado con Folium, donde se identifican los puntos clave para el drenaje.os segmentos con pendientes inferiores a un umbral predefinido (0.01) son considerados como ubicaciones óptimas para drenajes. Si no se cumplen estos criterios, se agrega un punto de drenaje ficticio para garantizar la visualización en el mapa.El código proporciona un análisis integrado y visualización precisa de la curva vial y sus puntos de drenaje. Es una herramienta práctica para la planificación y gestión de drenajes en infraestructura vial, combinando modelado geoespacial y análisis numérico de manera efectiva.
+
+
 ## Conclusiones
 El proyecto ha logrado modelar y analizar una curva vial en la región de Potrerillos, identificando puntos críticos para la implementación de drenajes mediante el cálculo de pendientes y la representación geoespacial. El uso de herramientas avanzadas como GDAL, Shapely, PyQGIS y Folium permitió realizar un análisis detallado y generar mapas interactivos que facilitan la toma de decisiones. Esta metodología combina precisión técnica con visualización intuitiva, proporcionando una solución eficiente para mejorar la seguridad y funcionalidad de la infraestructura vial.
 osibles Mejoras Futuras
